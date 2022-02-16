@@ -16,10 +16,6 @@
     color: var(--offwhite);
 }
 
-.nav-input {
-    background-color: 1px solid black;
-}
-
 .nav-login-btn {
     border: none;
 }
