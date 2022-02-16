@@ -1,0 +1,13 @@
+@import "./../style.css";
+
+.whislist-heading {
+    text-align: center;
+}
+
+.whislist-product {
+    gap: 1rem;
+}
+
+.card-icon:hover {
+    color: var(--danger-color);
+}
