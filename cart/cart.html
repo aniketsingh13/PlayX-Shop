@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aniket singh" />
+    <meta name="description" content="Cart page for PlayX-shop" />
+    <link rel="stylesheet" href="https://playx-ui.netlify.app/styles/main.css" />
+    <link rel="stylesheet" href="cart.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="icon" href="../assets/Screenshot 2022-02-12 222538.png" type="image/png" />
+    <title>PlayX-Cart</title>
+</head>
+
+<body>
+    <nav class="nav-conatainer flex  flex-row p-xs">
+        <div class="nav-brand font-xl f-l"><a class="nav-brand-a" href="/index.html">PlayX</a></div>
+        <form class="p-s">
+            <input class="nav-input font-xl f-m" type="search" name="search" placeholder="Search..">
+        </form>
+        <ul class="nav-right flex p-s">
+            <li class="pl-m"><button class="nav-login-btn f-s"><a class="" href="">Login</a></button></li>
+            <li class="nav-love-icon pl-l">
+                <a class="nav-loveicon-a" href="wishlist.html"><i class="far fa-heart f-l"></i></a>
+                <span class="nav-number f-s br-s">5</span>
+            </li>
+            <li class="pl-l">
+                <div class="badge">
+                    <a class="nav-bag-icon" href=""><i class="fa fa-shopping-cart badge-icon relative f-l"></i></a>
+                    <span class="badge-greenNumber br-s">10</span>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--main body-->
+    <div class="cart-heading mb-l mt-l f-l font-l">My Cart</div>
+    <div class="cart flex  flex-center mt-l">
+        <div class="horizotal-card flex flex-row">
+            <div class="header">
+                <image class="card-image_one" src="../Assets/shopping.webp" alt="controler-image">
+            </div>
+            <div class="body-horzCard  flex flex-column">
+                <div class="card-info">
+                    <div class="f-m font-s p-xs">Controller</div>
+                    <div class="f-m font-s p-xs">रु2845<span class="card-disc pl-s f-s font-l">रु5690</span>
+                    </div>
+                    <div class="card-off p-xs f-m font-s">50% OFF</div>
+                </div>
+                <div class="cart-quatity mt-xs mb-s ">
+                    <span class="font-l">Quantity :</span>
+                    <button class="cart-btn br-s pr-s font-l">+</button>
+                    <input type="text" class="cart-input" value="1">
+                    <button class="cart-btn br-s pl-s font-l">-</button>
+                </div>
+                <div class="card-click">
+                    <p class="card-cart-btn p-xs f-s font-s">Add to cart</p>
+                    <p class="card-whislist-btn p-xs f-s font-s mt-s">Remove from whislist </p>
+                </div>
+            </div>
+        </div>
+        <!--price detail-->
+        <div class="cart-price ">
+            <div class="cart-priceHeading f-m font-xl mt-l pb-s ml-s">PRICE DETAILS</div>
+            <div class="cart-info flex pl-s pr-s mt-s mb-s font-l">
+                <span>PRICE (2 items)</span>
+                <span>रु6000</span>
+            </div>
+            <div class="cart-info flex pl-s pr-s mt-s mb-s font-l">
+                <span>DISCOUNT</span>
+                <span>-रु3000</span>
+            </div>
+            <div class="cart-info flex pl-s pr-s mt-s mb-s font-l">
+                <span>Delivery Charges</span>
+                <span>रु500</span>
+            </div>
+            <div class="cartinfo-two flex mt-l mb-s p-s font-xxl">
+                <span>TOTAL AMOUNT</span>
+                <span>रु3500</span>
+            </div>
+            <div class="p-s font-xxl">You will save रु3000 on this order </div>
+           <div class="flex flex-center mt-s mb-s">
+            <button class="cart-orderBtn p-xs ">Place Order</button>
+           </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
