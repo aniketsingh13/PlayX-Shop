@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Aniket singh" />
+    <meta name="description" content="login page of PlayX-shop" />
+    <link rel="stylesheet" href="https://playx-ui.netlify.app/styles/main.css" />
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="icon" href="../assets/Screenshot 2022-02-12 222538.png" type="image/png" />
+    <title>PlayX | login</title>
+</head>
+
+<body>
+    <nav class="nav-conatainer flex  flex-row p-xs">
+        <div class="nav-brand font-xl f-l"><a class="nav-brand-a" href="">PlayX</a></div>
+        <form class="p-s">
+            <input class="nav-input font-xl f-m" type="search" name="search" placeholder="Search..">
+        </form>
+        <ul class="nav-right flex p-s">
+            <li class="pl-m"><button class="nav-login-btn f-s"><a class="" href="">Login</a></button></li>
+            <li class="nav-love-icon pl-l">
+                <a class="nav-loveicon-a" href=""><i class="far fa-heart f-l"></i></a>
+                <span class="nav-number f-s br-s">5</span>
+            </li>
+            <li class="pl-l">
+                <div class="badge">
+                    <a class="nav-bag-icon" href=""><i class="fa fa-shopping-cart badge-icon relative f-l"></i></a>
+                    <span class="badge-greenNumber br-s">10</span>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--center container-->
+    <div class="login-container flex flex-center mt-l">
+        <form class="login-form  pt-l">
+            <div class="f-m font-xxl mb-s">Login</div>
+            <div class=" mt-l ">
+                <label for="email" class="login-email-label font-s">Email Address</label></br>
+                <input type="text" class="f-s mt-s " name="email" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mt-l">
+                <label for="email" class="login-email-label font-s">Password</label></br>
+                <input type="text" class="f-s  mt-s " name="email" id="email" placeholder="Enter your password">
+            </div>
+            <div class="mt-l flex">
+                <input type="checkbox" id="remember" name="remember" class="login-checkbox" />
+                <label for="remember" class="font-xs f-s">Remember me</label>
+                <h3 class="login-text pl-s font-xs">Forgot your password?</h3>
+            </div>
+            <div class="mt-l">
+                <button class="login-btn f-s">Login</button>
+            </div>
+            <div class="mt-l mb-l">
+                <a href="" class="f-s">Create New Account<i class="fa fa-chevron-right pl-s"></i></a>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
