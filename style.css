@@ -11,13 +11,11 @@
 .nav-brand {
     align-self: center;
 }
-
+.nav-login-icon{
+    color: var(--offwhite)
+}
 .nav-brand-a {
     color: var(--offwhite);
-}
-
-.nav-login-btn {
-    border: none;
 }
 
 .nav-love-icon {
