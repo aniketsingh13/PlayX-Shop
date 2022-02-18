@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayX | Product</title>
+    <meta name="author" content="Aniket singh" />
+    <meta name="description" content="product page of PlayX-shop" />
+    <link rel="stylesheet" href="https://playx-ui.netlify.app/styles/main.css" />
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="icon" href="../assets/Screenshot 2022-02-12 222538.png" type="image/png" />
+</head>
+
+<body>
+    <nav class="nav-conatainer flex  flex-row p-xs">
+        <div class="nav-brand font-xl f-l"><a class="nav-brand-a" href="../index.html">PlayX</a></div>
+        <form class="p-s">
+            <input class="nav-input font-xl f-m" type="search" name="search" placeholder="Search..">
+        </form>
+        <ul class="nav-right flex p-s">
+            <li class="pl-m"><a class="nav-login-icon" href="../login/login.html"><i
+                        class="fa fa-user icon-stroke badge-icon f-l"></i></a>
+            <li>
+            <li class="nav-love-icon pl-l">
+                <a class="nav-loveicon-a" href="../wishlist/wishlist.html"><i class="far fa-heart f-l"></i></a>
+                <span class="nav-number f-s br-s">5</span>
+            </li>
+            <li class="pl-l">
+                <div class="badge">
+                    <a class="nav-bag-icon" href="../cart/cart.html"><i
+                            class="fa fa-shopping-cart badge-icon relative f-l"></i></a>
+                    <span class="badge-greenNumber br-s">10</span>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <!--Main Container-->
+    <main class="product-container flex">
+        <!--aside container-->
+        <aside class="aside-container mt-l ">
+            <ul class="aside-filter pl-m flex flex-row">
+                <li class="font-xxl">Filters</li>
+                <li class="aside-clear">clear</li>
+            </ul>
+            <div class="pl-m pt-m">
+                <h2 class="font-xxl mb-s">price</h2>
+                <div class="aside-productPrice pt-s flex"><span>रु2000</span><span>रु4000</span><span>रु6000</span>
+                </div>
+                <input type="range" min="1" max="100" value="50" class="aside-slider mt-s">
+            </div>
+            <div class="mt-m pl-m">
+                <h3 class="font-xxl pb-m">Category</h3>
+                <div>
+                    <input type="checkbox" checked="checked">
+                    <label for="checked">Games</label>
+                </div>
+                <div class="pt-s">
+                    <input type="checkbox" id="controller">
+                    <label for="controller">Controller</label>
+                </div>
+            </div>
+            <div class="mt-m pl-m">
+                <h3 class="font-xxl pb-m">Rating</h3>
+                <div>
+                    <input type="radio" checked="checked">
+                    <label>4 stars & above</label>
+                </div>
+                <div class="pt-s">
+                    <input type="radio">
+                    <label>3 stars & above</label>
+                </div>
+                <div class="pt-s">
+                    <input type="radio">
+                    <label>2 stars & above</label>
+                </div>
+                <div class="pt-s">
+                    <input type="radio">
+                    <label>1 stars & above</label>
+                </div>
+            </div>
+            <div class="mt-m pl-m">
+                <h3 class="font-xxl pb-m">Sory by</h3>
+                <div>
+                    <input type="radio" checked="checked">
+                    <label>Price-Low to High</label>
+                </div>
+                <div class="pt-s">
+                    <input type="radio" checked="checked">
+                    <label>Price-High to Low</label>
+                </div>
+            </div>
+        </aside>
+        <!--center container-->
+        <div class="center-container flex mt-l ml-m mb-l">
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one" src="../assets/shopping.webp" alt="controler-image">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> wireless controller</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one" src="../assets/shopping.webp" alt="controler-image">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> wireless controller</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one"
+                        src="../assets/limited-edition-cyberpunk-2077-full-game-xbox-one-original-imag3d9fes7xuk6q.jpeg"
+                        alt="cyberpunk">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> PC Game Pass</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one"
+                        src="../assets/xbox-360-standard-edition-full-game-far-cry-3-original-imaeduxknkfq5gzw.jpeg"
+                        alt="farcry 3">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> PC Game Pass</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one"
+                        src="../assets/limited-edition-cyberpunk-2077-full-game-xbox-one-original-imag3d9fes7xuk6q.jpeg"
+                        alt="cyber punk">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> PC Game Pass</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one"
+                        src="../assets/xbox-360-standard-edition-full-game-far-cry-3-original-imaeduxknkfq5gzw.jpeg"
+                        alt="farcry 3">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> PC Game Pass</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one" src="../assets/shopping.webp" alt="controler-image">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> wireless controller</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+            <div class="cards_withBadge">
+                <div class="header">
+                    <image class="card-image_one"
+                        src="../assets/xbox-360-standard-edition-full-game-far-cry-3-original-imaeduxknkfq5gzw.jpeg"
+                        alt="farcyr 3">
+                        <span class="card-icon p-xs br-s"><i class="far fa-heart"></i></span>
+                </div>
+                <div class="body  flex flex-center flex-column">
+                    <div class="p-xss"> PC Game Pass</div>
+                    <div class="f-m font-xs">रु5690</div>
+                </div>
+                <div class="footer p-xs mt-s">
+                    <p>Add to cart</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

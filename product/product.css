@@ -1,0 +1,29 @@
+@import "../style.css";
+
+.aside-container{
+    flex: 1;
+}
+.center-container{
+flex: 4;
+}
+
+.aside-filter{
+    justify-content: space-between;
+}
+.aside-clear{
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+.aside-productPrice{
+    justify-content: space-between;
+}
+.aside-slider{
+    width: 100%;
+}
+.center-container{
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.card-icon:hover{
+    color: var(--danger-color);
+}
