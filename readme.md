@@ -8,7 +8,6 @@ An Ecommerce app for  playstation, Xbox and games.
 - HTML
 - CSS
 - JS
-
 # Features
 - Home page
 - Product Listing Page
